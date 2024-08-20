@@ -1,0 +1,95 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Light gray background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff; /* White background for the container */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: 400px;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.auth input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 90%;
+    border: 1px solid #ced4da; /* Light border color */
+    border-radius: 4px;
+    font-size: 16px;
+    color: #495057; /* Darker text color */
+    background-color: #e9ecef; /* Very light gray background */
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 15px;
+    border: none;
+    background-color: #007bff; /* Blue background for primary actions */
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.section {
+    margin-top: 30px;
+    text-align: left;
+}
+
+h1, h2 {
+    color: #212529; /* Dark gray for headings */
+}
+
+h3 {
+    color: #343a40; /* Slightly lighter gray for section headers */
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    background-color: #ffffff; /* White background for list items */
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow for list items */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li span {
+    color: #6c757d; /* Muted text color for list items */
+}
+
+select, input[type="text"] {
+    padding: 10px;
+    width: calc(100% - 22px);
+    margin-top: 5px;
+    border: 1px solid #ced4da; /* Light border color */
+    border-radius: 4px;
+    font-size: 16px;
+    color: #495057; /* Darker text color */
+    background-color: #e9ecef; /* Very light gray background */
+}

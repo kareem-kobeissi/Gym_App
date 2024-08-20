@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gym Management System</h1>
+        
+        <div class="auth">
+            <input type="text" id="username" placeholder="Username">
+            <input type="password" id="password" placeholder="Password">
+            <button id="loginBtn">Login</button>
+        </div>
+
+        <div id="dashboard" class="hidden">
+            <h2>Welcome, <span id="userDisplayName"></span></h2>
+            <button id="logoutBtn">Logout</button>
+            
+            <div class="section">
+                <h3>Your Membership</h3>
+                <p id="membershipInfo"></p>
+            </div>
+
+            <div class="section">
+                <h3>Workout Schedule</h3>
+                <ul id="workoutSchedule"></ul>
+            </div>
+
+            <div class="section">
+                <h3>Manage Membership</h3>
+                <select id="membershipType">
+                    <option value="basic">Basic</option>
+                    <option value="premium">Premium</option>
+                    <option value="vip">VIP</option>
+                </select>
+                <button id="updateMembershipBtn">Update Membership</button>
+            </div>
+
+            <div class="section">
+                <h3>Manage Workouts</h3>
+                <input type="text" id="workoutName" placeholder="Workout Name">
+                <button id="addWorkoutBtn">Add Workout</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
